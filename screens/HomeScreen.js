@@ -5,6 +5,8 @@ import { StatusBar } from 'expo-status-bar'
 import * as Icon from "react-native-feather";
 import { themecolors } from '../theme';
 import Categories from '../components/categories';
+import FeaturedRow from '../components/featuredRow';
+import { featured } from '../constants/index';
 
 
 export default function HomeScreen() {
@@ -28,9 +30,27 @@ export default function HomeScreen() {
         {/* main area  we add scoller to it so that the screen can be scrolled*/}
         <ScrollView showsVerticalScrollIndicator={false}
         contentContainerStyle={{
-            paddingBottom:20
+            paddingBottom:30
         }}>
-            <Categories/>
+            {/* categories */}
+        <Categories/>
+        
+        {/* features */}
+        <View className="mt-5 space-y-4">
+        {
+            [featured,featured,featured].map((item,index)=>
+            {
+                return (
+                    <FeaturedRow
+                    key={index}
+                    title={item.title}
+                    restaurants={item.restaurants}
+                    description={item.description}/>
+                )
+            })
+        }
+            
+        </View>
         </ScrollView>
     
 
