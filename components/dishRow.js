@@ -1,5 +1,7 @@
-import { View, Text ,Image} from 'react-native'
+import { View, Text ,Image, TouchableOpacity} from 'react-native'
 import React from 'react'
+import { themecolors } from '../theme';
+import * as Icon from "react-native-feather";
 
 export default function DishRow({item}) {
   return (
@@ -16,7 +18,23 @@ export default function DishRow({item}) {
                             ${item.price}
                         </Text>
                         <View className="flex-row items-center">
+                        <TouchableOpacity 
+                                
+                                className="p-1 rounded-full" 
+                                style={{backgroundColor: themecolors.bgColor(1)}}>
+                                <Icon.Minus strokeWidth={2} height={20} width={20} stroke="white" />
+                            </TouchableOpacity>
+                            <Text className="px-3">
+                            {2}
+                            </Text>
                             
+                            <TouchableOpacity 
+                              
+                                className="p-1 rounded-full" 
+                                style={{backgroundColor: themecolors.bgColor(1)}}>
+                                <Icon.Plus strokeWidth={2} height={20} width={20} stroke="white" />
+                            </TouchableOpacity>
+
                         </View>
                         
                     </View>
