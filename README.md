@@ -63,6 +63,4 @@ The codebase is organized using standard React Native and component-based archit
 * This is a base application and may require further development for features like user profiles, payment processing, etc.
 * Refer to the official documentation for React Native, Expo, and Sanity for a deeper understanding of the technologies used.
 
-**License:**
 
-(Specify the license under which you are distributing the code. If unsure, consider using MIT license.)
