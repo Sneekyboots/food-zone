@@ -1,4 +1,4 @@
-## Fully build native react application which has sanity working
+## Fully build native react application which has sanity working with ezpo 
 Built using react native and expo
 
 ![WhatsApp Image 2024-03-27 at 9 43 06 AM (2)](https://github.com/Sneekyboots/client/assets/130485384/ece558a9-ecc8-4d72-ac0d-32371eb887db)
@@ -42,7 +42,7 @@ This project is a fully built, native React application for food delivery that u
 4. Run the app:
 
    ```bash
-   npm start
+   npx expo start
    ```
 
    This will start the Expo development server and open the app in a simulator or on your device.
