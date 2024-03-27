@@ -1,13 +1,12 @@
 ## Fully build native react application which has sanity working
 Built using react native and expo
 
+![WhatsApp Image 2024-03-27 at 9 43 06 AM (2)](https://github.com/Sneekyboots/client/assets/130485384/ece558a9-ecc8-4d72-ac0d-32371eb887db)
 
+![WhatsApp Image 2024-03-27 at 9 43 06 AM (1) (1) (2)](https://github.com/Sneekyboots/client/assets/130485384/5c05ae8b-d43b-4cde-9e8a-a8e1239a2b7f)
 
-![WhatsApp Image 2024-03-27 at 9 43 06 AM (1)](https://github.com/Sneekyboots/client/assets/130485384/95811090-9512-4328-b954-66aa0437f88d)
-![WhatsApp Image 2024-03-27 at 9 43 06 AM](https://github.com/Sneekyboots/client/assets/130485384/c1f3bab0-e703-41d3-9e73-0add63a3377f)
 
 ## Food Delivery App - React Native (Expo) with Sanity
-
 This project is a fully built, native React application for food delivery that utilizes Sanity for a headless CMS.
 
 **Tech Stack:**
