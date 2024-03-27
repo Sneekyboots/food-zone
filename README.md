@@ -25,13 +25,13 @@ This project is a fully built, native React application for food delivery that u
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/Sneekyboots/ziggofood-.git
+   git clone https://github.com/Sneekyboots/food-zone-.git
    ```
 
 2. Install dependencies:
 
    ```bash
-   cd zingofood
+   cd food-zone
    npm install
    ```
 
