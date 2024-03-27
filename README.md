@@ -1,4 +1,4 @@
-## Fully build native react application which has sanity working with ezpo 
+## Fully build native react application which has sanity working with expo 
 Built using react native and expo
 
 ![WhatsApp Image 2024-03-27 at 9 43 06 AM (2)](https://github.com/Sneekyboots/client/assets/130485384/ece558a9-ecc8-4d72-ac0d-32371eb887db)
